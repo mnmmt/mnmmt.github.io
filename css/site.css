@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: #555;
+}
+
+html, body {
+  font-size: 1.5em;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#content {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/background-detailed.svg);
+  /*background-image: url(../img/graph.png);*/
+  background-size: 20%;
+  background-opacity: 0.5;
+  font-weight: bold;
+}
+
+#header {
+    width: 100%;
+    padding-left: 1em;
+    height: 4em;
+}
+
+#header h1 {
+  /*font-family: 'Cabin Sketch', cursive;*/
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 0.25em;
+  position: absolute;
+}
+
+#main {
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  border-radius: 4px;
+  color: #444;
+  margin-top: 1em;
+}
+
+#main h2 {
+  font-family: 'Swanky and Moo Moo', cursive;
+  padding: 0px;
+  color: #333;
+  margin: 0px;
+  margin-top: 0.5em;
+}
+
+#forest-1 {
+  float: right;
+  margin-right: 1em;
+}
+
+#forest-2 {
+  float: left;
+  margin-left: 1em;
+  display: none;
+}
+
+#deer-1 {
+  display: inline;
+  float: right;
+  position: relative;
+  left: -600px;
+  top: 80px;
+}
+
+#deer-2 {
+  display: inline;
+  float: right;
+  position: relative;
+  left: -100px;
+  top: 80px;
+}
