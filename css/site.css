@@ -73,9 +73,10 @@ p {
 }
 
 .home-header {
-  background: url('../img/bzzt-logo.svg') no-repeat 50% 0;
+  background: url('../img/bzzt-logo-wordmark.svg') no-repeat 50% 0;
   background-size: 80px;
-  padding-top: 12rem;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
 }
 
 .bzzt-form {
@@ -124,6 +125,12 @@ button[type="submit"] {
 }
 
 /* MailChimp */
+.bzzt-form p {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
 div.mce_inline_error {
   color: red;
   padding: 1rem;
@@ -140,4 +147,31 @@ div.mce_inline_error {
 
 #mce-success-response {
   color: green;
+}
+
+/* Tumblr */
+
+/* hide injected iframe */
+body > iframe:first-child, .tmblr-iframe {
+  display: none !important;
+}
+
+.tumblr_posts li.tumblr_post {
+  list-style-type: none;
+  margin: 1rem 0px;
+}
+
+.tumblr_posts .tumblr_title {
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin: 1rem 0px;
+}
+
+.tumblr_posts .tumblr_body > * {
+  margin: 1rem 0px;
+}
+
+.tumblr_posts .tumblr_body img {
+  border-radius: 5px;
+  margin: 0.5rem 0px;
 }
