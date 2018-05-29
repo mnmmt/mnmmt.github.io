@@ -76,7 +76,7 @@ p {
   background: url('../img/bzzt-logo-wordmark.svg') no-repeat 50% 0;
   background-size: 80px;
   padding-top: 8rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 .bzzt-form {
@@ -126,9 +126,13 @@ button[type="submit"] {
 
 /* MailChimp */
 .bzzt-form p {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   text-align: center;
+}
+
+.bzzt-form {
+  margin-bottom: 3rem;
 }
 
 div.mce_inline_error {
