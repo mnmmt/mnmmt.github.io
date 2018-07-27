@@ -160,6 +160,9 @@ body > iframe:first-child, .tmblr-iframe {
   display: none !important;
 }
 
+.tumblr_posts {
+}
+
 .tumblr_posts li.tumblr_post {
   list-style-type: none;
   margin: 1rem 0px;
@@ -168,7 +171,11 @@ body > iframe:first-child, .tmblr-iframe {
 .tumblr_posts .tumblr_title {
   font-size: 1.75rem;
   font-weight: 300;
-  margin: 1rem 0px;
+  margin: 1rem 10px;
+}
+
+.tumblr_posts .tumblr_body p {
+  margin: 0px 10px;
 }
 
 .tumblr_posts .tumblr_body > * {
@@ -178,4 +185,19 @@ body > iframe:first-child, .tmblr-iframe {
 .tumblr_posts .tumblr_body img {
   border-radius: 5px;
   margin: 0.5rem 0px;
+  height: auto !important;
+}
+
+.tumblr_posts .tumblr_body iframe {
+  max-width: 100%;
+}
+
+#more {
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1.5em;
+  font-weight: bold;
 }
