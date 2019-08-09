@@ -67,7 +67,7 @@ p {
 }
 
 .container--site {
-  padding-top: 2rem;
+  padding-top: 8rem;
   padding-bottom: 5rem;
 }
 
@@ -78,7 +78,7 @@ p {
 .home-header {
   background: url('../img/bzzt-logo-wordmark.svg') no-repeat 50% 0;
   background-size: 150px;
-  padding-top: 7rem;
+  padding-top: 12rem;
   padding-bottom: 1.5rem;
 }
 
