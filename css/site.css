@@ -177,8 +177,9 @@ body > iframe:first-child, .tmblr-iframe {
   margin: 1rem 10px;
 }
 
-.tumblr_posts .tumblr_body p {
+.tumblr_posts p {
   margin: 0px 10px;
+  padding: 0.5em;
 }
 
 .tumblr_posts .tumblr_body > * {
